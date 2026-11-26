@@ -521,7 +521,7 @@ function catalogHTML(){
   const products = filteredProducts();
   return `
   <section class="hero">
-    <img class="hero-img" src="img/hero.jpg" alt="Linha de reboques Ferro Forte" />
+    <img class="hero-img" src="img/Hero.jpg" alt="Linha de reboques Ferro Forte" />
     <div class="hero-overlay"></div>
     <div class="hero-content">
       <span class="eyebrow">Reboques homologados DENATRAN</span>
