@@ -240,7 +240,7 @@ const PRODUCTS = [
     category: 'moto',
     kind: 'moto',
     desc: 'Plataforma mista com berços frontais e assoalho amplo em madeira.',
-    tagline: 'Ideal para quem precisa transportar motos sem abrir mão de espaço livre para carga geral. Chassi em aço reforçado, pontos de amarração laterais e faixa refletiva de segurança.',
+    tagline: 'Ideal para quem precisa transportar motos sem abrir mão de espaço livre para carga geral. Chassi em aço reforçado, pontos de amarração laterais e faixa refletiva de segurança. *Imagens ilustrativas do modelo.',
     price: 5500,
     images: [
 
@@ -275,7 +275,7 @@ const PRODUCTS = [
     category: 'carga',
     kind: 'carga',
     desc: 'Baú fechado alto com portas traseiras duplas e piso em madeira.',
-    tagline: 'Ideal para entregas, comércios e cargas sensíveis ao clima. Baú metálico reforçado, abertura traseira dupla, bequilha frontal e sinalização refletiva.',
+    tagline: 'Ideal para entregas, comércios e cargas sensíveis ao clima. Baú metálico reforçado, abertura traseira dupla, bequilha frontal e sinalização refletiva. *Imagens ilustrativas do modelo.',
     price: 15000,
     images:[
 
@@ -308,7 +308,7 @@ const PRODUCTS = [
     category: 'carga',
     kind: 'carga',
     desc: 'Baú preto fechado com porta traseira e bagageiro superior.',
-    tagline: 'Feito para quem precisa de compartimento fechado com cadeado e área útil no teto. Bagageiro com réguas de madeira, estepe frontal e sinalização completa.',
+    tagline: 'Feito para quem precisa de compartimento fechado com cadeado e área útil no teto. Bagageiro com réguas de madeira, estepe frontal e sinalização completa. *Imagens ilustrativas do modelo.',
     price: 5890,
     images:[
 
@@ -343,7 +343,7 @@ const PRODUCTS = [
     category: 'animais',
     kind: 'animais',
     desc: 'Eixo duplo com laterais em madeira, divisória interna e rampa de embarque.',
-    tagline: 'Pensado para quem busca mais estabilidade e divisão interna no transporte. Rampa ripada, travas reforçadas, suspensão com feixe de molas e acabamento em madeira.',
+    tagline: 'Pensado para quem busca mais estabilidade e divisão interna no transporte. Rampa ripada, travas reforçadas, suspensão com feixe de molas e acabamento em madeira. *Imagens ilustrativas do modelo.',
     price: 15500,
     images: [
       'img/Reboque_Carga_Animal/0.jpg',
@@ -382,7 +382,7 @@ const PRODUCTS = [
     category: 'carga',
     kind: 'carga',
     desc: 'Caçamba aberta com piso de madeira, grade frontal e rampa traseira.',
-    tagline: 'Ótima para quem precisa de carregamento ágil no dia a dia. Estrutura metálica reforçada, assoalho em madeira, travas de pino e rampa traseira.',
+    tagline: 'Ótima para quem precisa de carregamento ágil no dia a dia. Estrutura metálica reforçada, assoalho em madeira, travas de pino e rampa traseira. *Imagens ilustrativas do modelo.',
     price: 5500,
     images: [
 
@@ -418,7 +418,7 @@ const PRODUCTS = [
     category: 'carga',
     kind: 'carga',
     desc: 'Laterais ripadas em madeira, grade frontal e tampa traseira basculante.',
-    tagline: 'Ideal para quem busca praticidade no carregamento com acabamento reforçado. Suspensão com feixe de molas e amortecedor, grade frontal e travas laterais.',
+    tagline: 'Ideal para quem busca praticidade no carregamento com acabamento reforçado. Suspensão com feixe de molas e amortecedor, grade frontal e travas laterais. *Imagens ilustrativas do modelo.',
     price: 4000,
     images: [
 
