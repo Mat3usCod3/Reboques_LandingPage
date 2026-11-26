@@ -2,7 +2,7 @@
    1. CONFIGURAÇÃO
    ============================================================ */
 const WHATSAPP_NUMBER = '5531975561538';
-const COMPANY = 'Ferro Forte Reboques';
+const COMPANY = 'Carretinhas Ronildo';
 
 const brl = n => n.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
 
