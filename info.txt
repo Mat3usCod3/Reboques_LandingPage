@@ -1,0 +1,62 @@
+  ...
+
+  ...
+  
+  {
+    id: 'carga-bau-blindado',
+    name: 'Reboque Carga Baú Blindado',
+    category: 'carga',
+    kind: 'carga',
+    desc: 'Baú fechado com trava de segurança, ideal para transporte de equipamentos e valores.',
+    tagline: 'Proteção total para sua carga. Baú fechado com estrutura reforçada, trava de segurança e vedação contra chuva e poeira.',
+    price: 14300,
+    specs: [
+      ['Dimensões (C x L x A)', '4,50 m x 2,05 m x 1,90 m'],
+      ['Capacidade de carga', '1.500 kg'],
+      ['Tara (peso próprio)', '420 kg'],
+      ['Material do chassi', 'Aço carbono 3,5 mm com treliça de reforço'],
+      ['Suspensão', 'Feixe de molas duplo + amortecedores hidráulicos'],
+      ['Elétrica', 'Sistema 12V completo com iluminação interna opcional'],
+      ['Rodas e pneus', '2 x aro 14" com pneus 185/65 R14 reforçados'],
+      ['Acabamento', 'Pintura epóxi preta com baú em chapa galvanizada'],
+      ['Documentação', 'Homologado DENATRAN, com CRV e emplacamento']
+    ]
+  },
+
+
+  {
+    id: 'animais-agro-20',
+    name: 'Reboque Animais Agro 2.0',
+    category: 'animais',
+    kind: 'animais',
+    desc: 'Gaiola com laterais em barra e piso antiderrapante para transporte seguro de animais.',
+    tagline: 'Desenvolvido para o produtor rural. Gaiola ventilada com barras reforçadas, porteira lateral e piso antiderrapante de fácil higienização.',
+    price: 11200,
+    specs: [
+      ['Dimensões (C x L x A)', '4,00 m x 1,90 m x 1,70 m'],
+      ['Capacidade de carga', '1.800 kg'],
+      ['Tara (peso próprio)', '380 kg'],
+      ['Material do chassi', 'Aço carbono 3,0 mm com reforços em treliça'],
+      ['Suspensão', 'Feixe de molas duplo + amortecedores hidráulicos'],
+      ['Elétrica', 'Sistema 12V com lanternas LED e refletores'],
+      ['Rodas e pneus', '2 x aro 14" com pneus 185/65 R14'],
+      ['Acabamento', 'Pintura epóxi preta com piso antiderrapante'],
+      ['Documentação', 'Homologado DENATRAN, com CRV e emplacamento']
+    ]
+  }
+
+];
+
+
+// Se o produto não tiver `images`, usa o SVG gerado como placeholder
+function ensureImages(p){
+  if (!p.images || !p.images.length){
+    p.images = [
+      trailerScene(p.kind, 'lateral'),
+      trailerScene(p.kind, 'detalhe'),
+      trailerScene(p.kind, 'traseira')
+    ];
+  }
+  return p;
+}
+PRODUCTS.forEach(ensureImages);
